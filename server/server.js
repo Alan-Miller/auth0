@@ -27,7 +27,7 @@ app.use(session({
   secret: SESSION_SECRET,
   resave: false,
   saveUninitialized: false,
-  cookie: { maxAge: 10000 } // sesson lasts 10 seconds
+  cookie: { maxAge: 11000 } // sesson lasts 10 seconds
 }));
 app.use(currentSession);
 app.use(passport.initialize());
