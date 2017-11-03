@@ -18,11 +18,11 @@
     "react-scripts": "1.0.14"
   },
   "scripts": {
-    "start": "PORT=3221 react-scripts start",
+    "start": "PORT=3321 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "main": "server/server.js",
-  "proxy": "http://localhost:3222"
+  "proxy": "http://localhost:3322"
 }
