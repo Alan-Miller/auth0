@@ -1,5 +1,5 @@
 // REQUIRES
-require('dotenv').config();
+require('dotenv').config(); // allows environment variables
 const express = require('express')
     , bodyParser = require('body-parser')
     , session = require('express-session')
@@ -27,7 +27,7 @@ app.use(session({
   secret: SESSION_SECRET,
   resave: false,
   saveUninitialized: false,
-  cookie: { maxAge: 11000 } // sesson lasts 10 seconds
+  cookie: { maxAge: 13000 } // sesson lasts 13 seconds
 }));
 app.use(currentSession);
 app.use(passport.initialize());
